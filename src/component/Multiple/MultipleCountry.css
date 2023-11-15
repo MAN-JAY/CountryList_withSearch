@@ -1,0 +1,8 @@
+.All {
+  display: flex;
+  /* flex-direction: column; */
+}
+.MCmain {
+  display: flex;
+  flex-wrap: wrap;
+}
