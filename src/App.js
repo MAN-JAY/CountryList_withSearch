@@ -12,7 +12,7 @@ export default function App() {
 
   return (
     <div className="App">
-      <h1 style={{ "justify-content": "center" }}>Where in the world</h1>
+      <h1 style={{ "justifyContent": "center" }}>Where in the world</h1>
       <Header setSearchText={setSearchText} setSearchRegion={setSearchRegion} />
       <BrowserRouter>
         <Routes>

@@ -10,7 +10,7 @@ const RegionDropDown = ({ setSearchRegion }) => {
       .then((res) => {
         setRegions(res.data);
       });
-  }, [regions]);
+  }, []);
   return (
     <div className="container">
       {" "}
